@@ -10,7 +10,7 @@ Contents
 2. Installation Guide
 3. Future Development
 4. Use Cases
-
+5. What's new
 
 1. Module Dependencies
 ----------------------
@@ -52,3 +52,12 @@ Contents
 - Does not for the following cases:
 	+ user updated avatar
 	+ user updated display name
+
+5. What's new
+--------------
+June 03 2015
+- revisions and documented code (backend)
+- issue with regenerating report is fixed, it does not timeout when it tries to do an update
+- can only update via the administrative access
+- json files has been reduced to two (it would produce 3 json files)
+- Government of Canada departments have been made bilingual, users can now toggle between English and French
